@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+.almarai-light {
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.almarai-regular {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.almarai-extrabold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* nav section */
+nav {
+  a:hover {
+    color: #0d6efd !important;
+    /* border-bottom: 2px solid currentColor; */
+  }
+  .active {
+    color: #0d6efd !important;
+    /* border-bottom: 2px solid currentColor; */
+  }
+
+  a {
+    position: relative;
+  }
+  a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #0d6efd;
+    display: inline-block;
+    transition: 1s;
+    position: absolute;
+    right: 0;
+    top: 100%;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+
+.offcanvas li a {
+  padding: 1rem 2rem;
+  border-right: 4px solid rgba(211, 211, 211, 0.5);
+  transition: 0.5s;
+}
+
+.offcanvas li a.active {
+  background-color: hsla(216, 98%, 52%, 0.2) !important;
+  border-right: 4px solid #0d6efd;
+}
+.offcanvas li a:hover:not(.active) {
+  background-color: rgba(211, 211, 211, 0.2) !important;
+}
+
+.heart {
+  font-size: 2rem;
+  animation: hrt 1s infinite;
+}
+@keyframes hrt {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+section.doc .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    background-color:#a1a1a1;
+    border-radius: 50%;
+}
+section.doc .carousel-indicators .active {
+  background-color: #0d6efd;
+}
+
+section.doc .carousel-control-next, section.doc .carousel-control-prev {
+  opacity: 1;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 1;
+  color: black;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+
+.doc img {
+  width: 100%;
+<<<<<<< HEAD
+  height:390px;
+  object-fit: cover;
+}
+
+
+.carousel-control-prev {
+    right: -10px;
+}
+.carousel-control-next {
+    /* left: -10px; */
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: -80px;
+}
+
+#m1:hover{
+  color: #0d6efd
+  
+} 
+section img:hover{
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   transform: scale(1,1);
+    box-shadow: 0 5px 8px hsl(210, 1%, 33%);
+}
+
+.accordion button:hover{ h3{color: #0d6efd;}   box-shadow: 0 5px 10px hsla(210, 1%, 33%, 0.498); }
+
+
+.btn:hover {
+  color: #0d6efd
+}
+=======
+  height: 250px;
+  object-fit: cover;
+}
+>>>>>>> 0900435c8c9710f73553ec361f2c29c5ec7ead66

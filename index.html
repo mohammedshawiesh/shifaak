@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./src/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+<body class="almarai-regular">
+    <!-- + header section  -->
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <!-- قسم اللوجو والشعار -->
+        <div class="container  ">
+            <a class="navbar-brand" href="#" style="width: 60px;">
+                <img src=" ./img/header/logo.png" alt="logo pic" class="w-100">
+                <h6 class="text-primary fs-3 d-inline-block">شفائك</h6>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navList"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- قسم الروابط في الناف بار  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الأطباء</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">المساعد الطبي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">من نحن
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا
+                        </a>
+                    </li>
+                </ul>
+                <div class="position-relative">
+                    <button class="btn btn-primary rounded-pill" type="button">تسجيل الدخول</button>
+                    <button class="btn btn-outline-primary rounded-pill ms-2" type="button">انشاء الحساب</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ------------    قسم الهيرو كامل -------------- -->
+    <main>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 py-5">
+                <div class="col">
+
+
+                    <div class="content">
+                        <!-- قسم مستقبلة الصحي والدائرة زرقاء -->
+                        <div
+                            class="d-inline-flex gap-2 px-3 py-2 rounded-pill border border-primary border-opacity-25 bg-white shadow-sm">
+                            <span class=" bg-primary rounded-circle" style="width: 20px; height: 20px;"></span>
+
+                            <span class="font-bold ">مستقبلك الصحي يبدأ هنا</span>
+                        </div>
+
+                        <h1 class="my-4 fw-bold display-4">
+                            استشارة طبية <br>
+
+                            <!-- الصورة الي تحت بلمسة زر واحدة  -->
+                            <div class="text-primary position-relative ">
+                                <img class="position-absolute z-n1 top-100 translate-middle-y img-fluid"
+                                    src="./img/main/content/main.img.png" alt="">
+                                <span class="">بلمسة زر واحدة</span>
+                            </div>
+                        </h1>
+
+                        <p class="text-muted fs-5">
+                            دع الذكاء الاصطناعي يحلل أعراضك ويوجهك لأفضل الأطباء المختصين.</p>
+
+                        <div class="text-primary">
+                            <span id="typing"></span>
+                            <span class="heart"> I </span>
+                        </div>
+                        <!-- قسم اكتب الاعراض مع الايكون مع زر تشخيص -->
+                        <form action="#"
+                            class="d-flex justify-content-between gap-2 my-3 bg-white shadow-sm border border-primary border-opacity-25 p-3 rounded-4">
+                            <img src="./img/main/content/doctor-icon.svg" alt="">
+
+                            <input class="form-control border-0" type="search"
+                                placeholder="اكتب الأعراض هنا (مثال: ألم في الرأس...)">
+                            <button class="btn btn-primary rounded-3 text-nowrap">تشخيص الآن</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- صورة الدكتور مع الصورة الزرقاء  -->
+                <div class="col position-relative">
+                    <img class="img-fluid" src="./img/main/img/doctor-hero.png" alt="">
+                    <img class="img-fluid position-absolute start-0 top-0 z-n1" src="./img/main/img/shape.svg" alt="">
+                </div>
+
+            </div>
+    </main>
+
+    <!-- - انتهاء قسم الهيرو  -->
+
+    <!-- قسم العداد والاستشارات واعداد الاطباء -->
+    <section id="numSec" class="my-5">
+        <div class="container shadow-lg bg-white rounded-5 ">
+            <div class="row row-cols-2 row-cols-lg-4 p-5 px-3 text-center">
+                <div class="col border-end">
+
+                    <!--الصورة الاولى استشارة ناجحة  د -->
+                    <div class="content">
+                        <img class="img-fluid mb-4" src="./img/numbers/Background.png" alt="num1">
+                        <div class="position-relative">
+                            <span class="numValue display-5 fw-bold" data-num="320"></span>
+                            <span class="text-primary position-absolute bottom-50 ms-2 fs-3">+</span>
+                        </div>
+                        <h4 class="mt-3 text-muted fs-5">استشارة ناجحة</h4>
+                    </div>
+                </div>
+
+                <!-- الصورة الثانية مريض مسجل د -->
+                <div class="col border-end">
+                    <div class="content">
+                        <img class="img-fluid mb-4" src="./img/numbers/Background (1).png" alt="num1">
+                        <div class="position-relative">
+                            <span class="numValue display-5 fw-bold" data-num="1200">
+                            </span>
+                            <span class="text-primary position-absolute bottom-50 ms-2 fs-3">+</span>
+                        </div>
+                        <h4 class="mt-3 text-muted fs-5">مريض مسجل</h4>
+                    </div>
+                </div>
+
+                <!-- الصورة الثالة طبيب خبير  -->
+                <div class="col border-end">
+                    <div class="content">
+                        <img class="img-fluid mb-4" src="./img/numbers/Background (2).png" alt="num3">
+                        <div class="position-relative">
+                            <span class="numValue display-5 fw-bold" data-num="450">
+
+                            </span>
+                        </div>
+                        <h4 class="mt-3 text-muted fs-5">طبيب خبير
+
+                        </h4>
+                    </div>
+                </div>
+
+                <!-- الصورة الرابعة شريك طبي -->
+                <div class="col">
+                    <div class="content">
+                        <img class="img-fluid mb-4" src="./img/numbers/Background (3).png" alt="num4">
+                        <div class="position-relative">
+                            <span class="numValue display-5 fw-bold" data-num="95">
+                            </span>
+                            <span class="text-primary position-absolute bottom-50 ms-2 fs-3">+</span>
+                        </div>
+                        <h4 class="mt-3 text-muted fs-5">شريك طبي
+
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <!-- قسم التقليب تبع الدكاترة  -->
+    <section class="doc "
+        style=" padding:200px 0 150px 0 ; background-color: rgb(235 245 255 / var(--tw-bg-opacity, 1));">
+        <div class="d-flex justify-content-center align-items-center mb-5 ">
+            <span class="fs-1 border-bottom border-5 border-primary">اطباؤنا المميزين</span>
+        </div>
+        <div class="container">
+            <div id="doctorsSidle" class="carousel  slide " data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#doctorsSidle" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="Slide 1">
+                    </button>
+                    <button data-bs-target="#doctorsSidle" data-bs-slide-to="1" aria-label="Slide 2">
+                    </button>
+                    <button data-bs-target="#doctorsSidle" data-bs-slide-to="2" aria-label="Slide 3">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                            <div class="col">
+                                <!-- الصورة الاولى في التقليب تبع الدكاترة  -->
+                                <div class="card rounded-5">
+                                    <img style="height: 300px;" src="./img/doctors/1.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body text-center">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            امراض القلب
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.محمد الازهري
+                                        </h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- الصورة الثانية تبعت التقليب  -->
+                            <div class="col">
+                                <div class="card rounded-5 ">
+                                    <img style="height: 300px; " src="./img/doctors/2.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body text-center ">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            عمليات تجميل
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د. حسني مطر</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- الصورة الثالثة تبعت التقليب  -->
+                            <div class="col">
+                                <div class="card rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/3.jpg"
+                                        class="card-img-top rounded-top-5 " alt="...">
+                                    <div class="card-body text-center">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            جراحة مفاصل
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.سامي امين</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- الصورة الرابعة تبعت التقليب  -->
+                            <div class="col">
+                                <div class="card rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/4.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body text-center">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            امراض جلدية
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.مروى امينة</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- تكرار الصور تبعون التقليب بدهم تغير  -->
+                    <div class="carousel-item  ">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                            <div class="col">
+                                <div class="card rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/images5.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body text-center">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب اعصاب
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.رانيا محمود</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/imag6.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body text-center">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب اسنان
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.سارة عبدالله
+                                        </h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/images7.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body text-center">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب عام
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.نورهان محمد</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/images8.jpg"
+                                        class="card-img-top  rounded-top-5" alt="...">
+                                    <div class="card-body ">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب مخبري
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.مرح نضال </h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                            <div class="col">
+                                <div class="card text-center rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/images9.jpg"
+                                        class="card-img-top rounded-top-5 " alt="...">
+                                    <div class="card-body ">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            عمليات
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.ليا محمد</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/imag10.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body  ">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب عيون
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.ميرا احمد</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/imag11.jpg"
+                                        class="card-img-top rounded-top-5" alt="...">
+                                    <div class="card-body ">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب عام
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.حنان علي</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center rounded-5">
+                                    <img style="height: 300px; " src="./img/doctors/images12.jpg"
+                                        class="card-img-top rounded-5" alt="...">
+                                    <div class="card-body">
+                                        <span
+                                            class="d-inline-flex   jalign-items-center border border-primary border-0 rounded-pill px-3 py-1 bg-primary-subtle text-primary ">
+                                            طب عام
+                                        </span>
+                                        <h3 id="m1" class="text-lg fs-4 py-2" style="cursor: pointer">د.احمد ياسين</h3>
+                                        <h6 class="fs-6">متاح للحجز</h6>
+                                        <button class="btn btn-primary py-2 rounded-3">حجز موعد </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="py-5 mt-5">
+        <div class="container">
+            <div class="accordion container w-75 " id="accordionExample">
+                <div class="text-center mb-5">
+                    <span class="d-inline-block fs-1 border-bottom border-5 border-primary">
+                        الأسئلة الشائعة
+                    </span>
+                </div>
+                <div class="accordion-item mb-3 rounded-5 border border-2  ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-5 " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h3>كيف يمكنني اجراء استشارة عبر الفديو ؟</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show   "
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            لإجراء استشارة عبر الفيديو، يجب أولاً إنشاء حساب على المنصة. بعد تسجيل الدخول، يمكنك التوجه
+                            إلى قسم 'الاستشارات'، اختيار التخصص والطبيب، ثم حجز الموعد. سيتم إرسال رابط الجلسة إلى حسابك
+                            لبدء الاستشارة.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded-5 border border-2 ">
+                    <h2 class="accordion-header ">
+                        <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>هل يمكنني تحميل تقارير الفحوصات للطبيب؟</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            نعم، المنصة تتيح لك رفع الملفات الطبية مثل صور الأشعة ونتائج التحاليل. يمكنك إرفاقها عند حجز
+                            الاستشارة أو من خلال صفحة الاستشارة الخاصة بك ليطلع عليها الطبيب.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded-5 border border-2 ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-5" type="button " data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h3> هل الخدمات متوفرة على مدار الساعة؟</h3>
+
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            العديد من الخدمات، كالاستشارات العامة، متوفرة على مدار الساعة. توفر الأطباء المتخصصين قد
+                            يختلف. خدمة دعم العملاء متاحة دائماً للمساعدة.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded-5 border border-2 ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-5" type="button " data-bs-toggle="collapse"
+                            data-bs-target="#collapsefor" aria-expanded="false" aria-controls="collapsefor">
+                            <h3> هل يمكنني اختيار الطبيب بنفسي؟</h3>
+
+                        </button>
+                    </h2>
+                    <div id="collapsefor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">بالتأكيد. يمكنك تصفح قائمة الأطباء حسب التخصص، التقييمات، وغيرها،
+                            واختيار من يناسبك. لكل طبيب صفحة تعريفية مفصلة لمساعدتك في اتخاذ القرار.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded-5 border border-2 ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-5" type="button " data-bs-toggle="collapse"
+                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                            <h3> كيف يتم الحفاظ على سرية معلوماتي الطبية؟</h3>
+
+                        </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">نحن نأخذ خصوصيتك على محمل الجد. نستخدم تقنيات تشفير متقدمة ونلتزم
+                            بمعايير حماية المعلومات الصحية العالمية لضمان أمان وسرية بياناتك.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded-5 border border-2 ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-5" type="button " data-bs-toggle="collapse"
+                            data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                            <h3>هل الاستشارة تشمل وصفة طبية؟</h3>
+
+
+                        </button>
+                    </h2>
+                    <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">نعم، إذا رأى الطبيب ضرورة لذلك بعد تقييم حالتك، يمكنه إصدار وصفة
+                            طبية إلكترونية معتمدة يمكنك استخدامها في الصيدليات المعتمدة.
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center ">
+                    <span class="d-inline-block mt-5">
+                        لم تجد الإجابة التي تبحث عنها؟
+                    </span>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="btn border-primary "><span class="m-3">تواصل مع الدعم الفني </span></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid p-0">
+        <div class="bg-primary text-white p-5 text-center" style="min-height: 400px;">
+            <i class="bi bi-person-plus fs-1 text-white "></i>
+
+            <h2 class="fw-bold my-3">هل أنت طبيب أو أخصائي متميز؟</h2>
+            <p class="w-50 mx-auto ">انضم إلى شبكتنا الطبية الرائدة ووسّع نطاق تأثيرك الإيجابي. نقدم لك منصة متطورة،
+                وصولاً أوسع للمرضى، ودعماً كاملاً لتتمكن من تقديم أفضل رعاية صحية بكل سهولة ومرونة. سجل الآن وكن جزءًا
+                من مستقبل الطب الرقمي.</p>
+            <button class="btn btn-light d-flex align-items-center mx-auto">
+                سجل كطبيب الآن
+                <i class="bi bi-arrow-left-circle fs-4 ms-4"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- النقاط -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCards" data-bs-slide-to="0"
+                class="active bg-primary"></button>
+            <button type="button" data-bs-target="#carouselCards" data-bs-slide-to="1" class="bg-primary"></button>
+            <button type="button" data-bs-target="#carouselCards" data-bs-slide-to="2" class="bg-primary"></button>
+        </div>
+
+        <!-- الكاروسيل -->
+        <div class="carousel-inner">
+
+            <!-- سلايد 1 -->
+            <div class="carousel-item active">
+                <div class="container py-5">
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/300" class="card-img-top">
+                                <div class="card-body">
+                                    <h5>كارد 1</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/300" class="card-img-top">
+                                <div class="card-body">
+                                    <h5>كارد 2</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/300" class="card-img-top">
+                                <div class="card-body">
+                                    <h5>كارد 3</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- سلايد 2 -->
+            <div class="carousel-item">
+                <div class="container py-5">
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">كارد 4</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">كارد 5</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">كارد 6</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- سلايد 3 -->
+            <div class="carousel-item">
+                <div class="container py-5">
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">كارد 7</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">كارد 8</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">كارد 9</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- الأسهم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+        </button>
+
+    </div>
+
+
+
+    <!-- قسم السيكربت الجافا -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
